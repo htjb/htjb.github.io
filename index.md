@@ -27,3 +27,5 @@ improve on the currently used emulators. Any resultant
 signal emulator from my work will be usable in conjunction with foreground modelling
 techniques such as MSFs/maxsmooth and those based in Bayesian
 nested sampling as intended for REACH.
+
+You can view my CV [*here*](https://raw.githubusercontent.com/htjb/CV/main/CV.pdf).
