@@ -18,8 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Harry T. J. Bevins
-subtitle: PhD student
+title: Harry T. J. Bevins| PhD student
 email: htjb2@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Personal pages
