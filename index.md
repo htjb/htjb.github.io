@@ -20,10 +20,10 @@ systematics in 21-cm cosmology experiments. I am the lead author and maintainer 
 code [maxsmooth](https://github.com/htjb/maxsmooth) which can be used to rapidly
 and efficiently fit MSFs.
 
+<center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
+
 I am currently looking at Global 21-cm signal emulators, their design and how we can
 improve on the currently used emulators. Any resultant
 signal emulator from my work will be usable in conjunction with foreground modelling
 techniques such as MSFs/maxsmooth and those based in Bayesian
 nested sampling as intended for REACH.
-
-<center><img src="{{ site.url }}/assets/portrait.jpg" width="50%" alt-text="Portrait image"></center>
