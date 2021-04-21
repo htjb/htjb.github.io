@@ -3,7 +3,7 @@ title: Introduction
 ---
 
 I am a second year PhD student in Physics at Cavendish Astrophysics,
-University of Cambridge. I work on data analysis techniques for Global 21-cm cosmology
+University of Cambridge. I work on data analysis techniques for global 21-cm cosmology
 as part of the
 [Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group at Cambridge and as part of the
 [REACH (Radio Experiment for the Analysis of Cosmic Hydrogen)]('https://www.astro.phy.cam.ac.uk/research/research-projects/reach/reach')
@@ -22,10 +22,12 @@ and efficiently fit MSFs.
 
 <center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
 
-I am currently looking at Global 21-cm signal emulators, their design and how we can
-improve on the currently used emulators. Any resultant
-signal emulator from my work will be usable in conjunction with foreground modelling
-techniques such as MSFs/maxsmooth and those based in Bayesian
-nested sampling as intended for REACH.
+More recently I have worked on novel techniques for emulating the global (or sky-averaged)
+21-cm signal with neural networks. The resultant signal emulator
+[globalemu](https://github.com/htjb/globalemu) will be used extensively by the
+REACH collaboration for physical signal modelling in a nested sampling loop.
+
+I am currently looking at potential applications of both [maxsmooth](https://github.com/htjb/maxsmooth)
+and [globalemu](https://github.com/htjb/globalemu) to real data sets.
 
 You can view my CV [*here*](https://raw.githubusercontent.com/htjb/CV/main/CV.pdf).
