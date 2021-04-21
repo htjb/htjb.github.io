@@ -24,6 +24,9 @@ for 21-cm cosmology*, 21-cm Group Meeting,
 May 2020, Cavendish Astrophysics, University of Cambridge.
 
 ## Poster Presentations
+- *globalemu:  A novel and robust approach for emulating the sky averaged 21-cm
+signal  from  the  cosmic  dawn  and  epoch  of  reionization*, A Precursor View
+of the SKA Sky, Virtual Conference, May 2021.
 - [*REACH: Radio Experiment for the Analysis of Cosmic Hydrogen*](https://drive.google.com/file/d/1dvgumyu4cXxXqoYxikU3DKOa4u_gpGzn/view'),
 Science at Low Frequencies VI, December 2019, Arizona State University.
 - *REACH: Radio Experiment for the Analysis of Cosmic Hydrogen*,
