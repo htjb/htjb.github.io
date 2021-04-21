@@ -1,3 +1,7 @@
+---
+title: Publications
+---
+
 ## First Author Publications
 
 - H. T. J. Bevins. [*maxsmooth: Derivative Constrained Function Fitting*](https://joss.theoj.org/papers/10.21105/joss.02596),
