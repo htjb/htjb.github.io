@@ -3,6 +3,10 @@ title: Presentations
 ---
 
 ## Talks
+-*An extensive bayesian re-analysis of the SARAS2 data from the Epoch of Reionization*
+21-cm Group Meeting (Online), October 2021, Cavendish Astrophysics, University of Cambridge
+- [*globalemu:Novel and robust global 21-cm signal emulation with neural networks*](https://www.youtube.com/watch?v=862NuVyF33k&list=PLF7c7ri2hrnGlwbn4JLc0PWbncSeARdTP&index=4&t=5s),
+4th Global 21-cm Workshop (Online), October 2021, University of Colorado
 - *maxsmooth and Maximally Smooth Functions*, Internal Coffee Talk (Online),
 February 2021, Cavendish Astrophysics, University of Cambridge
 - *GlobalEmu: A novel and robust approach to emulating the Global 21-cm
