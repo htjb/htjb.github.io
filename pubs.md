@@ -10,7 +10,7 @@ of Reionization*](https://arxiv.org/abs/2201.11531), arXiv:2201.11531, January 2
 - **H. T. J. Bevins**, W. J. Handley, A. Fialkov, E. de Lera Acedo, K. Javid. [*GLOBALEMU: A novel and robust
 approach for emulating the sky-averaged 21-cm signal from the cosmic dawn and epoch of
 reionisation*](https://doi.org/10.1093/mnras/stab2737), MNRAS, December 2021.
-- H. T. J. Bevins, W. J. Handley, A. Fialkov, E. de Lera Acedo, L. J. Greenhill, D. C. Price.
+- **H. T. J. Bevins**, W. J. Handley, A. Fialkov, E. de Lera Acedo, L. J. Greenhill, D. C. Price.
 [*maxsmooth: Rapid Maximally Smooth Function Fitting With Applications in Global
 21-cm Cosmology*](https://doi.org/10.1093/mnras/stab152), MNRAS, January 2021.
 - **H. T. J. Bevins**. [*maxsmooth: Derivative Constrained Function Fitting*](https://joss.theoj.org/papers/10.21105/joss.02596),

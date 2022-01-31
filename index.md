@@ -33,11 +33,11 @@ and investigating the use of Normalizing flows in the Bayesian analysis workflow
 
 You can view my CV [*here*](https://raw.githubusercontent.com/htjb/CV/main/CV.pdf).
 
+<center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
+
 <center>
 <a href='https://arxiv.org/search/?searchtype=author&query=Bevins%2C+H+T+J'><img src="{{ site.url }}/assets/arxiv.png" width="10%" alt-text="arXiv Link"></a>
 <a href='https://github.com/htjb'><img src="{{ site.url }}/assets/github_logo.png" width="10%" alt-text="Github Link"></a>
 <a href='https://www.linkedin.com/in/harry-bevins-641a6512a/'><img src="{{ site.url }}/assets/linkedin.png" width="10%" alt-text="Linkedin Link"></a>
 <a href='https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0'><img src="{{ site.url }}/assets/ads.png" width="10%" alt-text="ADS Link"></a>
 </center>
-
-<center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
