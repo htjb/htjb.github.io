@@ -3,6 +3,14 @@ title: Presentations
 ---
 
 ## Talks
+- [*A Bayesian re-analysis of the sky-averaged 21-cm experimental data
+from SARAS2*](https://www.youtube.com/watch?v=93KCp7rHcGA&list=PLZL7YmXBBHPDCyNfJcWwP78GgacY_Og4E&index=23),
+Lightening Talk, Science at Low Frequencies VIII (Online), December 2021, University of Amsterdam.
+- *An extensive bayesian re-analysis of the SARAS2 data from the Epoch of Reionization*,
+21-cm Group Meeting (Online), October 2021, Cavendish Astrophysics, University of Cambridge
+- [*globalemu: novel and robust global 21-cm signal
+emulation*](https://www.youtube.com/watch?v=862NuVyF33k&list=PLF7c7ri2hrnGlwbn4JLc0PWbncSeARdTP&index=4),
+4th Global 21-cm Workshop (Online), October 2021, University of Colorado.
 - *maxsmooth and Maximally Smooth Functions*, Internal Coffee Talk (Online),
 February 2021, Cavendish Astrophysics, University of Cambridge
 - *GlobalEmu: A novel and robust approach to emulating the Global 21-cm
