@@ -4,9 +4,11 @@ title: Publications
 
 ## First Author Publications
 
+- **H. T. J. Bevins**, W. J. Handley, P. Lemos, P. H. Sims, E. de Lera Acedo, A. Fialkov, J. Alsing.
+[*Removing the fat from your posterior samples with margarine*](https://arxiv.org/abs/2205.12841), arXiv:2205.12841, May 2022.
 - **H. T. J. Bevins**, E. de Lera Acedo, A. Fialkov, W. J. Handley, S. Singh, R. Subrahmanyan, R. Barkana.
 [*A comprehensive Bayesian re-analysis of the SARAS2 data from the Epoch
-of Reionization*](https://arxiv.org/abs/2201.11531), arXiv:2201.11531, January 2022.
+of Reionization*](https://doi.org/10.1093/mnras/stac1158), MNRAS, April 2022.
 - **H. T. J. Bevins**, W. J. Handley, A. Fialkov, E. de Lera Acedo, K. Javid. [*GLOBALEMU: A novel and robust
 approach for emulating the sky-averaged 21-cm signal from the cosmic dawn and epoch of
 reionisation*](https://doi.org/10.1093/mnras/stab2737), MNRAS, December 2021.
@@ -18,7 +20,7 @@ Journal of Open Source Software, August 2020.
 
 ## Contributing Author Publications:
 
-- J. Cumner, E. De Lera Acedo, D.I.L. de Villiers, D. Anstey, C. I. Kolitsidas, B. Gurdon, N. Fagnoni, P. Alexander, G. Bernardi, **H.T.J. Bevins**, S. Carey, J. Cavillot, R. Chiello, C. Craeye, W. Croukamp, J.A. Ely, A. Fialkov, T. Gessey-Jones, Q. Gueuning, W. Handley, R. Hills, A.T. Josaitis, G. Kulkarni, A. Magro, R. Maiolino, P. D. Meerburg, S. Mittal, J.R. Pritchard, E. Puchwein, N. Razavi-Ghods, I.L.V. Roque, A. Saxena, K.H. Scheutwinkel, E. Shen, P.H. Sims, O. Smirnov, M. Spinelli, K. Zarb-Adami. [*Radio antenna design for sky-averaged 21 cm cosmology experiments: the REACH case*](https://ui.adsabs.harvard.edu/abs/2021arXiv210910098C/abstract), September 2021
+- J. Cumner, E. De Lera Acedo, D.I.L. de Villiers, D. Anstey, C. I. Kolitsidas, B. Gurdon, N. Fagnoni, P. Alexander, G. Bernardi, **H.T.J. Bevins**, S. Carey, J. Cavillot, R. Chiello, C. Craeye, W. Croukamp, J.A. Ely, A. Fialkov, T. Gessey-Jones, Q. Gueuning, W. Handley, R. Hills, A.T. Josaitis, G. Kulkarni, A. Magro, R. Maiolino, P. D. Meerburg, S. Mittal, J.R. Pritchard, E. Puchwein, N. Razavi-Ghods, I.L.V. Roque, A. Saxena, K.H. Scheutwinkel, E. Shen, P.H. Sims, O. Smirnov, M. Spinelli, K. Zarb-Adami. [*Radio antenna design for sky-averaged 21 cm cosmology experiments: the REACH case*](https://www.worldscientific.com/doi/10.1142/S2251171722500015), Journal of Astronomical Instrumentation, February 2022.
 - I. C. Nitu, **H. T. J. Bevins**, J. D. Bray, A. M. M. Scaife.
 [*An updated estimate of the cosmic radio background and implications
 for ultra high energy photon propagation*](https://doi.org/10.1016/j.astropartphys.2020.102532),
