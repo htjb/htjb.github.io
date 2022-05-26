@@ -40,4 +40,5 @@ You can view my CV [*here*](https://raw.githubusercontent.com/htjb/CV/main/CV.pd
 <a href='https://github.com/htjb'><img src="{{ site.url }}/assets/github_logo.png" width="10%" alt-text="Github Link"></a>
 <a href='https://www.linkedin.com/in/harry-bevins-641a6512a/'><img src="{{ site.url }}/assets/linkedin.png" width="10%" alt-text="Linkedin Link"></a>
 <a href='https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0'><img src="{{ site.url }}/assets/ads.png" width="10%" alt-text="ADS Link"></a>
+<a href='https://publons.com/researcher/5239833/harry-bevins/'><img src="{{ site.url }}/assets/publons.png" width="10%" alt-text="Publons Link"></a>
 </center>
