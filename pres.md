@@ -3,8 +3,8 @@ title: Presentations
 ---
 
 ## Conference Talks
-- *Marginal Bayesian Statistics with Masked Autoregressive Flows and Kernel Density Estimators*, 41st Max-
-Ent22 Conference, Institut Henri Poincare, Paris, July 2022.
+- *Marginal Bayesian Statistics with Masked Autoregressive Flows and Kernel Density Estimators*, 41st
+MaxEnt22 Conference, Institut Henri Poincare, Paris, July 2022.
 - *globalemu: Novel and robust emulation of 21-cm signals from the Epoch of Reionization*, Special Session-Towards
 the SKA Observatory:Artificial Intelligence in Radio Astronomy, European Astronomical
 Society Annual Meeting, Valencia, July 2022.

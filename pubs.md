@@ -5,8 +5,7 @@ title: Publications
 ## First Author Publications
 
 - **H. T. J. Bevins**, A. Fialkov, E. de Lera Acedo, W. J. Handley, S. Singh, R. Subrahmanyan, R. Barkana.
-*Astrophysical Constraints from the SARAS3 non-detection of the Cosmic Dawn Sky-Averaged 21-cm Sig-
-nal.* Accepted for Nature Astronomy.
+*Astrophysical Constraints from the SARAS3 non-detection of the Cosmic Dawn Sky-Averaged 21-cm Signal.* Accepted for Nature Astronomy.
 - **H. T. J. Bevins**, W. J. Handley, P. Lemos, P. Sims, E. de Lera Acedo, A. Failkov. [*Marginal Bayesian
 Statistics Using Masked Autoregressive Flows and Kernel Density Estimators with Examples in Cosmology.*](https://arxiv.org/abs/2207.11457)
 Accepted Proceedings to MaxEnt22. arXiv:2207.11457.
