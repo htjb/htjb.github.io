@@ -42,8 +42,7 @@ It has recently been used to model data from the SARAS instruments and will be u
 REACH collaboration for physical signal modelling in a nested sampling loop.
 
 You can read about the application of globalemu and maxsmooth to the SARAS2 data and the resultant
-constraints that we derived on the properties of the first galaxies  
-[here](https://arxiv.org/abs/2201.11531). A similar work on the SARAS3 data has recently been accepted for publication
+constraints that we derived on the properties of the first galaxies [here](https://arxiv.org/abs/2201.11531). A similar work on the SARAS3 data has recently been accepted for publication
 at Nature Astronomy.
 
 More recently, I have worked on the use of Normalizing flows in a machine-learning enhanced Bayesian workflow
