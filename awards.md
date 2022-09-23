@@ -4,6 +4,7 @@ title: Teaching and Awards
 
 ## Awards
 
+- **Fitzwilliam Society Trust Research Fund 2022:** Financial support to help attend and present at the 5th Global 21-cm Workshop.
 - **Fitzwilliam College Student Opportunities Award 2022:** Financial support
 awarded to help attend and present at a conference.
 - **Fitzwilliam College Senior Scholarship 2022:** Financial support in
