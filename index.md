@@ -22,7 +22,7 @@ Cambridge from September 2023.
 <a href='https://github.com/htjb'><img src="{{ site.url }}/assets/github_logo.png" width="10%" alt-text="Github Link"></a>
 <a href='https://www.linkedin.com/in/harry-bevins-641a6512a/'><img src="{{ site.url }}/assets/linkedin.png" width="10%" alt-text="Linkedin Link"></a>
 <a href='https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0'><img src="{{ site.url }}/assets/ads.png" width="10%" alt-text="ADS Link"></a>
-<a href='https://publons.com/researcher/5239833/harry-bevins/'><img src="{{ site.url }}/assets/publons.png" width="10%" alt-text="Publons Link"></a>
+<a href='https://www.webofscience.com/wos/author/record/3920858'><img src="{{ site.url }}/assets/wos.png" width="10%" alt-text="Web of Science Link"></a>
 </center>
 
 
@@ -45,9 +45,9 @@ art emulators by a factor of 102 and the application of Normalizing Flows in
 a machine-learning enhanced Bayesian workflow (see [margarine](https://github.com/htjb/margarine)).
 
 
-You can read about the application of the tools I have developed to data from SARAS2 [here](10.1093/mnras/stac1158),
-data from SARAS3 [in Nature Astronomy](10.1038/s41550-022-01825-6) and data from 
-HERA and SARAS3 [here](10.48550/arXiv.2301.03298).
+You can read about the application of the tools I have developed to data from SARAS2 [here](https://academic.oup.com/mnras/article/513/3/4507/6575926),
+data from SARAS3 in [Nature Astronomy](https://www.nature.com/articles/s41550-022-01825-6) and data from 
+HERA and SARAS3 [here](https://arxiv.org/abs/2301.03298).
 
 I have recently worked on a novel approach for learning multi-modal probability distributions with
 Normalizing Flows which you can read about [here](https://arxiv.org/abs/2305.02930).
