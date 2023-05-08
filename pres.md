@@ -3,6 +3,8 @@ title: Presentations
 ---
 
 ## Conference Talks
+- [*Machine Learning for 21-cm Cosmology*](https://github.com/htjb/Talks/blob/master/Talks/DARA_REACH_Workshop/DARA_Workshop.pdf),
+Development in Africa with Radio Astronomy REACH Workshop, University of Stellenbosch, February 2023.
 - [*Astrophysics from the SARAS3 non-detection of the global 21-cm signal*](https://global21cmworkshop.org/2022-berkeley/) , 5th Global 21-cm Workshop, University of California Berkeley, October 2022.
 - *Marginal Bayesian Statistics with Masked Autoregressive Flows and Kernel Density Estimators*, 41st
 MaxEnt22 Conference, Institut Henri Poincare, Paris, July 2022.

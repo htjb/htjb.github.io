@@ -4,8 +4,10 @@ title: Publications
 
 ## First Author Publications
 
+- **H. T. J. Bevins**, W. J. Handley. [*Piecewise Normalizing Flows*](https://arxiv.org/abs/2305.02930), arXiv:2305.02930, May 2023.
+- **H. T. J. Bevins**, S. Heimersheim, I. Abril-Cabezas, A. Fialkov, E. de Lera Acedo, W. J. Handley, S. Singh, R. Barkana. [*Joint analysis constraints on the physics of the first galaxies with low frequency radio astronomy data.*](https://arxiv.org/abs/2301.03298), arXiv:2301.03298, January 2023.
 - **H. T. J. Bevins**, A. Fialkov, E. de Lera Acedo, W. J. Handley, S. Singh, R. Subrahmanyan, R. Barkana.
-*Astrophysical Constraints from the SARAS3 non-detection of the Cosmic Dawn Sky-Averaged 21-cm Signal.* Accepted for Nature Astronomy.
+[*Astrophysical Constraints from the SARAS3 non-detection of the Cosmic Dawn Sky-Averaged 21-cm Signal.*](https://doi.org/10.1038/s41550-022-01825-6.) Nature Astronomy, Volume 6, p. 1473-1483, December 2022.
 - **H. T. J. Bevins**, W. J. Handley, P. Lemos, P. Sims, E. de Lera Acedo, A. Failkov. [*Marginal Bayesian
 Statistics Using Masked Autoregressive Flows and Kernel Density Estimators with Examples in Cosmology.*](https://arxiv.org/abs/2207.11457)
 Accepted Proceedings to MaxEnt22. arXiv:2207.11457.
@@ -37,4 +39,5 @@ REACH case*](https://ui.adsabs.harvard.edu/abs/2022JAI....1150001C/abstract), Jo
 ## Peer Review:
 
 Peer reviewed [one paper](https://github.com/openjournals/joss-reviews/issues/3859)
-for the Journal of Open Source Software.
+for the Journal of Open Source Software and one paper for Advances in Space Research. See 
+[Web of Science](https://www.webofscience.com/wos/author/record/3920858).
