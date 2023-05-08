@@ -2,51 +2,18 @@
 title: Introduction
 ---
 
-I am a third year PhD student in Physics at Cavendish Astrophysics,
-University of Cambridge. I work on data analysis techniques for global or sky-averaged 21-cm cosmology
+I am a final year PhD student in Physics and a Research Assistant at Cavendish Astrophysics,
+University of Cambridge. 
+During my PhD I worked on data analysis techniques for global or sky-averaged 21-cm cosmology
 as part of the
 [Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group and as part of the
 [REACH (Radio Experiment for the Analysis of Cosmic Hydrogen)](https://www.astro.phy.cam.ac.uk/research/research-projects/reach/reach)
 collaboration under the
 supervision of Dr Eloy de Lera Acedo, Dr Will Handley and Dr Anastasia Fialkov.
 
-21-cm cosmology is a field of study which aims to track the redshifted 21-cm
-emission from neutral hydrogen throughout cosmic history in an effort to
-determine when the first galaxies formed and what those galaxies were like. We know
-very little about the first luminous objects to form between the CMB and the current
-era of the galaxies dominated by large scale structure. While probes like JWST
-give us a window to distant galaxies, as far back as z=16, 21-cm cosmology can
-provide statistical information about the population of galaxies over the redshift range
-z = 5 - 150.
+I will be starting as a Junior Kavli fellow at the Kavli Institute for Cosmology
+Cambridge from September 2023.
 
-There are a number of on going and future experimental efforts in the field with future missions
-planned to the far side of the Moon. While a promising probe the view to the first
-galaxies is fogged by emission from our own and other galaxies, emission from our own atmosphere
-and made challenging by the non-uniform responses of our instruments. I have worked on a
-number of these challenges during my PhD.
-
-I have looked  at the
-modelling of Galactic and extra-galactic emission with Maximally Smooth Functions (MSFs).
-MSFs have very smooth properties making them ideally suited for modelling smooth synchrotron and
-free-free emission foregrounds in 21-cm experiments. They can also be used as
-a tool to help identify non-smooth systematics in data sets that could be introduced by the instrument or
-the environment around the telescope. I am the lead author and maintainer of the
-code [maxsmooth](https://github.com/htjb/maxsmooth) which can be used to rapidly
-and efficiently fit MSFs. I have demonstrated applications of this software to data
-from LEDA, EDGES and SARAS2.
-
-In addition, I have worked on novel techniques for emulating the global (or sky-averaged)
-21-cm signal with neural networks. The resultant signal emulator
-[globalemu](https://github.com/htjb/globalemu) is 102 times faster than the previous state of the art.
-It has recently been used to model data from the SARAS instruments and will be used extensively by the
-REACH collaboration for physical signal modelling in a nested sampling loop.
-
-You can read about the application of globalemu and maxsmooth to the SARAS2 data and the resultant
-constraints that we derived on the properties of the first galaxies [here](https://arxiv.org/abs/2201.11531). A similar work on the SARAS3 data has recently been accepted for publication
-at Nature Astronomy.
-
-More recently, I have worked on the use of Normalizing flows in a machine-learning enhanced Bayesian workflow
-with the code [margarine](https://github.com/htjb/margarine).
 
 <center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
 
@@ -57,3 +24,30 @@ with the code [margarine](https://github.com/htjb/margarine).
 <a href='https://ui.adsabs.harvard.edu/search/q=author%3A%22Bevins%2C%20H.%20T.%20J.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0'><img src="{{ site.url }}/assets/ads.png" width="10%" alt-text="ADS Link"></a>
 <a href='https://publons.com/researcher/5239833/harry-bevins/'><img src="{{ site.url }}/assets/publons.png" width="10%" alt-text="Publons Link"></a>
 </center>
+
+
+21-cm cosmology is a field of study which aims to track the redshifted 21-cm
+emission from neutral hydrogen throughout cosmic history in an effort to
+determine when the first galaxies formed and what those galaxies were like. We know
+very little about the first luminous objects to form between the CMB and the current
+era of the galaxies dominated by large scale structure. While probes like JWST
+can in principle probe distant galaxies, as far back as z=20, 21-cm cosmology can
+provide statistical information about the population of galaxies over the redshift range
+z = 5 - 150.
+
+While a promising probe the view to the first
+galaxies is fogged by emission from our own and other galaxies, emission from our own atmosphere
+and made challenging by the non-uniform responses of our instruments. I have worked on a
+number of these challenges during my PhD including; galactic and extragalactic foreground modelling using maximally smooth
+functions (see [maxsmooth](https://github.com/htjb/maxsmooth)), signal emulation 
+(see [globalemu](https://github.com/htjb/globalemu)) improving on the runtime of the state of the
+art emulators by a factor of 102 and the application of Normalizing Flows in 
+a machine-learning enhanced Bayesian workflow (see [margarine](https://github.com/htjb/margarine)).
+
+
+You can read about the application of the tools I have developed to data from SARAS2 [here](10.1093/mnras/stac1158),
+data from SARAS3 [in Nature Astronomy](10.1038/s41550-022-01825-6) and data from 
+HERA and SARAS3 [here](10.48550/arXiv.2301.03298).
+
+I have recently worked on a novel approach for learning multi-modal probability distributions with
+Normalizing Flows which you can read about [here](https://arxiv.org/abs/2305.02930).
