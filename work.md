@@ -52,7 +52,30 @@ approach detailed in [Stimper et al. 2022](https://proceedings.mlr.press/v151/st
 constraints on the properties of the first galaxies with data from 21-cm
 cosmology experiments.
 
-Under construction.
+In this work we used normalizing flows to model posterior distributions
+from previous analysis of data from the 21-cm experiments SARAS3 and HERA to
+efficiently perform a joint analysis and place constraints on the properties of
+the first stars and galaxies.
+
+21-cm cosmology is concerned with the detection of a signal from the Cosmic Dawn
+and Epoch of Reionization from neutral hydrogen which can inform us about
+the star formation rates of the first galaxies, their halo masses, their X-ray and
+radio luminosities and how quickly the universe ionized. We either attempt to
+detect the sky-averaged signal, redshifted from the early universe, in the radio
+band with single radiometers, like SARAS3, or detect the spatial variation in the
+signal through the power spectrum with interferometers like HERA.
+
+Both HERA and SARAS3 have collected data in the past few years but neither
+experiment has claimed a detection of the signal. Instead they have been able
+to place upper limits on the magnitude of both the sky-averaged signal and the
+power spectrum. Using these upper limits we are able to demonstrate that we
+can recover tighter constraints on the magnitude of the signals and the properties of
+early galaxies than can be achieved with each experiment individually. The figure below
+shows the one-, two- and three-sigma constratints on the magnitude of the
+signals derived using the prior on our astrophysical parameters, from each experiment
+and jointly.
+
+<center><img src="{{ site.url }}/assets/joint_constraints.png" width="70%" alt-text="Joint Constraints"></center>
 
 ## margarine: Marginal Bayesian Statistics
 
