@@ -3,6 +3,8 @@ title: Presentations
 ---
 
 ## Conference Talks
+- [*Utilizing Normalizing Flows to enhance our Bayesian workflows*](https://github.com/htjb/Talks/blob/master/Talks/KICC_EoR/Bevins_KICC_EoR.pdf), Astrostatistics and Astro-ML, KICC, University of Cambridge, May 2023.
+- [*Joint analysis constraints on the physics of the first galaxies with low frequency radio astronomy data*](https://github.com/htjb/Talks/blob/master/Talks/KICC_EoR/Bevins_KICC_EoR.pdf), A Multi-scale View of the EoR, KICC, University of Cambridge, May 2023.
 - [*Machine Learning for 21-cm Cosmology*](https://github.com/htjb/Talks/blob/master/Talks/DARA_REACH_Workshop/DARA_Workshop.pdf),
 Development in Africa with Radio Astronomy REACH Workshop, University of Stellenbosch, February 2023.
 - [*Astrophysics from the SARAS3 non-detection of the global 21-cm signal*](https://global21cmworkshop.org/2022-berkeley/) , 5th Global 21-cm Workshop, University of California Berkeley, October 2022.
