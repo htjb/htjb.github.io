@@ -2,12 +2,19 @@
 title: My Work
 ---
 
+I am interested in machine learning algorithms and how we can apply them to
+get the most out of our data. I am currently focused on applications of
+normalising flows to our Bayesian analysis pipelines and applications of
+machine learning algorithms to the calibration of radio antennas.
+
 Below is a summary of some of my most recent work.
 
 - [Piecewise Normalizing Flows](#piecewise-normalizing-flows)
 - [Joint Constraints on the first galaxies](#joint-constraints-on-the-first-galaxies)
 - [margarine: Marginal Bayesian Statistics](#margarine-marginal-bayesian-statistics)
 - [Astrophysical constraints on the first galaxies from SARAS3](#astrophysical-constraints-on-the-first-galaxies-from-saras3)
+
+For a complete list of publications see [here](https://harrybevins.co.uk/pubs.html).
 
 ## Piecewise Normalizing Flows
 
@@ -120,4 +127,27 @@ the resultant joint constraints are shown below.
 - TLDR: The first constraints from 21-cm cosmology on the properties of the first galaxies 200
 million years after the Big Bang.
 
-Under construction.
+In this work we used data from the SARAS3 radiometer to constrain the properties of
+galaxies at redshift of 20 roughly 200 million years after the Big Bang. The SARAS3
+radiometer is aiming to detect the redshifted sky-averaged 21-cm signal from neutral 
+hydrogen during the Cosmic Dawn and Epoch of Reionization. The signal, measured
+relative to the radio background, is sensitive to the star formation properties
+of the first galaxies, their X-ray and radio luminosities and the CMB optical
+depth.
+
+Using an upper limit measurement of the signal from the SARAS3 instrument
+we are able to rule out scenarios in which high redshfit galaxies were very luminous
+in the radio band and had low X-ray efficiencies. We also place constraints on 
+the star formation rate and minimum halo mass for star formation at high redshfits
+for the first time.
+
+We compare our constraints to those from the precursor instrument SARAS2 and
+demonstrate that while the constraints are generally stronger from SARAS3 each experiment
+gives us information about the properties of galaxies at different redshifts. This
+suggests that we can gain information by performing a joint analysis of 
+differnt data sets and is shown in the figure below. The figure shows the functional constraints
+on the 21-cm signal from each experiment against the prior and the KL divergence,
+a measure of the information gain when contracting the prior to the posterior, for each
+instrument.
+
+<center><img src="{{ site.url }}/assets/saras2-saras3-comparison.pdf" width="70%" alt-text="SARAS2 and SARAS3 Constraints"></center>
