@@ -84,7 +84,33 @@ and jointly.
 - TLDR: Using normalizing flows to build of nuisance-free or marginal
 Bayesian workflow.
 
-Under construction.
+In these two papers we demonstrated that we could use normalizing flows to
+derive marginal posterior distributions, define marginal or nuisance-free likeilhood
+functions and calcualte marginal Bayesian statistics such as the Kullback-Leibler
+divergence and Bayesian Model Dimensionality.
+
+We use normalizing flows, bijective and differentiable transformations between a
+base distribution and more complex target distribution, to post process MCMC and
+Nested Sampling chains and marginalise out nuisance parameters. This gives us
+access to the posterior distributions on core science parameters and allows
+us to evaluate probabilities without having to worry about instrumental nuiances
+and contaminating signals.
+
+Through access to the marginal posterior distributions we then define
+the marginal Kullback-Leibler divergence and marginal Bayesian Model Dimensionality
+which allow us to evalute the constraining power of different experiments in
+just the core science part of the parameter space. In practice this allows us
+to compare different experimental approaches with different nuisance parameters
+and determine which is giving us the most information about the parameters that we
+are interested in.
+
+Using the marginal or nuisance-free likelihood function we also outline a method
+for performing efficient joint analysis without having to sample the nuisance
+parameters but still recovering the correct Bayesian evidence. 
+We demonstrated this with Planck and the Dark Energy Survey and
+the resultant joint constraints are shown below.
+
+<center><img src="{{ site.url }}/assets/planck_des.pdf" width="70%" alt-text="Joint Planck and DES Constraints"></center>
 
 ## Astrophysical constraints on the first galaxies from SARAS3
 
