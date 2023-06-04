@@ -4,6 +4,11 @@ title: My Work
 
 Below is a summary of some of my most recent work.
 
+- [Piecewise Normalizing Flows](#piecewise-normalizing-flows)
+- [Joint Constraints on the first galaxies](#joint-constraints-on-the-first-galaxies)
+- [margarine: Marginal Bayesian Statistics](#margarine-marginal-bayesian-statistics)
+- [Astrophysical constraints on the first galaxies from SARAS3](#astrophysical-constraints-on-the-first-galaxies-from-saras3)
+
 ## Piecewise Normalizing Flows
 
 - [Paper](https://arxiv.org/abs/2305.02930)
