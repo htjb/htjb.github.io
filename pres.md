@@ -3,6 +3,8 @@ title: Presentations
 ---
 
 ## Conference Talks
+- *On the Current Constraints on Superconducting Cosmic Strings from 21-cm Cosmology*, 21-cm Cosmology: Dark Ages, Cosmic Dawn and the Epoch of Reionization, URSI GASS 2023, Sapporo, Japan,**On behalf of Thomas Gessey-Jones**, August 2023
+- [*Joint analysis constraints on the physics of the first galaxies*](https://github.com/htjb/Talks/raw/master/Talks/URSI_2023/joint_analysis_margarine.pdf), 21-cm Cosmology: Dark Ages, Cosmic Dawn and the Epoch of Reionization, URSI GASS 2023, Sapporo, Japan, August 2023
 - [*Utilizing Normalizing Flows to enhance our Bayesian workflows*](https://github.com/htjb/Talks/blob/master/Talks/KICC_Astrostats/AstroStats_Bevins.pdf), Astrostatistics and Astro-ML, KICC, University of Cambridge, May 2023.
 - [*Joint analysis constraints on the physics of the first galaxies with low frequency radio astronomy data*](https://github.com/htjb/Talks/blob/master/Talks/KICC_EoR/Bevins_KICC_EoR.pdf), A Multi-scale View of the EoR, KICC, University of Cambridge, May 2023.
 - [*Machine Learning for 21-cm Cosmology*](https://github.com/htjb/Talks/blob/master/Talks/DARA_REACH_Workshop/DARA_Workshop.pdf),
