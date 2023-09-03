@@ -2,17 +2,16 @@
 title: Introduction
 ---
 
-I am a final year PhD student in Physics and a Research Assistant at Cavendish Astrophysics,
-University of Cambridge. 
+I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at
+Cambridge. I am pursuing research in novel Bayesian analysis tools and their
+broad cosmological applications.
+
 During my PhD I worked on data analysis techniques for global or sky-averaged 21-cm cosmology
 as part of the
 [Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group and as part of the
 [REACH (Radio Experiment for the Analysis of Cosmic Hydrogen)](https://www.astro.phy.cam.ac.uk/research/research-projects/reach/reach)
 collaboration under the
 supervision of Dr Eloy de Lera Acedo, Dr Will Handley and Dr Anastasia Fialkov.
-
-I will be starting as a Junior Kavli fellow at the Kavli Institute for Cosmology
-Cambridge from September 2023.
 
 
 <center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
