@@ -3,6 +3,10 @@ title: Presentations
 ---
 
 ## Conference Talks
+- [*Novel Statistical Methods and 21-cm Cosmology*](https://github.com/htjb/Talks/raw/master/Talks/KICC_Intro_23/kicc_intro_23.pdf), Intro to KICC, University of Cambridge, October 2023.
+- *REACH Calibration Software Update*, REACH Annual Meeting, University of Malta, Malta, September 2023.
+- [*Joint analysis constraints from 21-cm probes with normalizing flows*](https://github.com/htjb/Talks/tree/master/Talks/REACH_Malta/joint_analysis_margarine.pdf), REACH Annual Meeting, University of Malta, Malta, September 2023.
+- Panellist on `Instrumentation & Methods' panel, [6th Global 21-cm Workshop](https://global21cmworkshop.org/2023-ifpu/), Fundamental Physics of the Universe (IFPU), Trieste, Italy, September 2023.
 - *On the Current Constraints on Superconducting Cosmic Strings from 21-cm Cosmology*, 21-cm Cosmology: Dark Ages, Cosmic Dawn and the Epoch of Reionization, URSI GASS 2023, Sapporo, Japan,**On behalf of Thomas Gessey-Jones**, August 2023
 - [*Joint analysis constraints on the physics of the first galaxies*](https://github.com/htjb/Talks/raw/master/Talks/URSI_2023/joint_analysis_margarine.pdf), 21-cm Cosmology: Dark Ages, Cosmic Dawn and the Epoch of Reionization, URSI GASS 2023, Sapporo, Japan, August 2023
 - [*Utilizing Normalizing Flows to enhance our Bayesian workflows*](https://github.com/htjb/Talks/blob/master/Talks/KICC_Astrostats/AstroStats_Bevins.pdf), Astrostatistics and Astro-ML, KICC, University of Cambridge, May 2023.

@@ -13,6 +13,8 @@ as part of the
 collaboration under the
 supervision of Dr Eloy de Lera Acedo, Dr Will Handley and Dr Anastasia Fialkov.
 
+You can find my thesis [here](https://github.com/htjb/Thesis/blob/main/Thesis.pdf).
+
 
 <center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
 
