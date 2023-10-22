@@ -3,7 +3,7 @@ title: Introduction
 ---
 
 I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at
-Cambridge. I am pursuing research in novel Bayesian analysis tools and their
+Cambridge and a Post-Doctoral Research Associate at St Edmunds College. I am pursuing research in novel Bayesian analysis tools and their
 broad cosmological applications.
 
 During my PhD I worked on data analysis techniques for global or sky-averaged 21-cm cosmology
