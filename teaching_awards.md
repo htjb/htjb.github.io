@@ -18,7 +18,7 @@ studies during 2020.
 
 - **Oct 2023 - Present:** Co-supervision of Sam Leeney with 
 Eloy de Lera Acedo and Will Handley for PhD in Physics, University of Cambridge.
-- **Oct 2022 - Present:** Co-supervision of Nora Gavrea with Anastasia Fialkov
+- **Oct 2023 - Present:** Co-supervision of Nora Gavrea with Anastasia Fialkov
 for Part III Astrophysics Masters Project, University of Cambridge.
 
 ### Small Group Teaching
