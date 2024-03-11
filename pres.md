@@ -3,6 +3,8 @@ title: Presentations
 ---
 
 ## Conference Talks
+- [*21cm Cosmology as a probe of the high redshfit Universe*](https://github.com/htjb/Talks/raw/master/Talks/RAS_Multi-tracer_View/21cmCosmo.pdf), [A multi-tracer view of galaxies in the first few billion years](https://ras.ac.uk/events-and-meetings/ras-meetings/multi-tracer-view-galaxies-first-few-billion-years), Royal Astronomical Society, London, February 2024.
+- [*Observing the first stars and galaxies*](https://github.com/htjb/Talks/raw/master/Talks/St_Edmunds_Research_Salon_Nov_2023/research_salon.pdf), Research Salon, St Edmunds College, Cambridge, November 2023.
 - [*Novel Statistical Methods and 21-cm Cosmology*](https://github.com/htjb/Talks/raw/master/Talks/KICC_Intro_23/kicc_intro_23.pdf), Intro to KICC, University of Cambridge, October 2023.
 - *REACH Calibration Software Update*, REACH Annual Meeting, University of Malta, Malta, September 2023.
 - [*Joint analysis constraints from 21-cm probes with normalizing flows*](https://github.com/htjb/Talks/tree/master/Talks/REACH_Malta/joint_analysis_margarine.pdf), REACH Annual Meeting, University of Malta, Malta, September 2023.
