@@ -31,6 +31,8 @@ Journal of Open Source Software, August 2020.
 
 ## Contributing Author Publications:
 
+- T. Gessey-Jones, S. Pochinda, **H. T. J. Bevins**, A. Fialkov, W. J. Handley, E. de Lera Acedo, S. Singh, R. Barkana, [*On the Constraints on Superconducting Cosmic Strings from 21-cm Cosmology*](https://arxiv.org/abs/2312.08828), December 2023.
+- S. Pochinda, T. Gessey-Jones, **H. T. J. Bevins**, A. Fialkov, S. Heimersheim, I. Abril-Cabezas, E. de Lera Acedo, S. Singh, S. Sikder, R. Barkana. [*Constraining the properties of Population III galaxies with multi-wavelength observations*](https://arxiv.org/abs/2312.08095), December 2023.
 - The REACH Collaboration. [*The REACH radiometer for detecting the 21-cm hydrogen signal from redshift
 z ≈ 7.5 − 28.*](https://www.nature.com/articles/s41550-022-01709-9?utm_campaign=related_content&utm_source=ASTRO&utm_medium=communities) Nature Astronomy. July 2022, *Section lead on Detection of Unknown Systematics*.
 - The REACH Collaboration. [*Radio antenna design for sky-averaged 21 cm cosmology experiments: the
