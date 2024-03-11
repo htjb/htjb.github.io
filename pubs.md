@@ -40,6 +40,6 @@ REACH case*](https://ui.adsabs.harvard.edu/abs/2022JAI....1150001C/abstract), Jo
 
 ## Peer Review:
 
-Peer reviewed [one paper](https://github.com/openjournals/joss-reviews/issues/3859)
-for the Journal of Open Source Software and one paper for Advances in Space Research. See 
+Peer reviewed two papers
+for the Journal of Open Source Software, one for the Journal of Cosmology and Astroparticle Physics, one for the Open Journal of Astrophysics and one paper for Advances in Space Research. See 
 [Web of Science](https://www.webofscience.com/wos/author/record/3920858).
