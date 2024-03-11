@@ -3,7 +3,7 @@ title: Introduction
 ---
 
 I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at
-Cambridge. I am pursuing research in novel Bayesian analysis tools and their
+Cambridge and a Post-Doctoral Research Associate at St Edmunds College. I am pursuing research in novel Bayesian analysis tools and their
 broad cosmological applications.
 
 During my PhD I worked on data analysis techniques for global or sky-averaged 21-cm cosmology
@@ -16,7 +16,7 @@ supervision of Dr Eloy de Lera Acedo, Dr Will Handley and Dr Anastasia Fialkov.
 You can find my thesis [here](https://github.com/htjb/Thesis/blob/main/Thesis.pdf).
 
 
-<center><img src="{{ site.url }}/assets/portrait.jpg" width="30%" alt-text="Portrait image"></center>
+<center><img src="{{ site.url }}/assets/harry_bevins.jpeg" width="30%" alt-text="Portrait image"></center>
 
 <center>
 <a href='https://arxiv.org/search/?searchtype=author&query=Bevins%2C+H+T+J'><img src="{{ site.url }}/assets/arxiv.png" width="10%" alt-text="arXiv Link"></a>
