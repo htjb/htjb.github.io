@@ -63,7 +63,7 @@ Computation, Neural Posterior Estimation with Conditional Normalising Flows
 and Neural Ratio Estimation. For each concept I again provided Python notebooks
 demonstrations (see [here](https://github.com/htjb/Talks/tree/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/mphil-lecture-examples)).
 
-<center><img src="{{ site.url }}/assets/Lecture-image.png" width="70%" alt-text="Benchmark Examples"></center>
+<center><img src="{{ site.url }}/assets/Lecture-image.png" alt-text="SBI Lecture"></center>
 
 ## Piecewise Normalizing Flows
 
