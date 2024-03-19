@@ -9,12 +9,61 @@ machine learning algorithms to the calibration of radio antennas.
 
 Below is a summary of some of my most recent work.
 
+- [Emulation and SBI Lectures](#emulation-and-sbi-lectures)
 - [Piecewise Normalizing Flows](#piecewise-normalizing-flows)
 - [Joint Constraints on the first galaxies](#joint-constraints-on-the-first-galaxies)
 - [margarine: Marginal Bayesian Statistics](#margarine-marginal-bayesian-statistics)
 - [Astrophysical constraints on the first galaxies from SARAS3](#astrophysical-constraints-on-the-first-galaxies-from-saras3)
 
 For a complete list of publications see [here](https://harrybevins.co.uk/pubs.html).
+
+## Emulation and SBI Lectures
+
+- [Lecture One: Emulators](https://github.com/htjb/Talks/raw/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/Lecture-15.pdf)
+- [Lecture Two: Simulation Based Inference](https://github.com/htjb/Talks/raw/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/Lecture-16.pdf)
+- TLDR: MPhil Data Intensive Science Minor Module lectures on the use of
+emulators and simulation based inference in astronomy and cosmology.
+- 19/03/2024
+
+I recently gave two lectures on the use of emulators and simulation based 
+inference in astronomy and cosmology for the "Data Driven Radio Astronomy in the
+SKA Era" minor module for the Cambridge MPhil in Data Intensive Science. The
+lectures were non-examinable and designed to give the students an introduction
+to the application of machine learning tools in the field of Radio Astronomy.
+They followed a series of lectures covering a range of topics from electromagnetic
+modelling of array beams, imagining with interferometers and inference techniques
+given by members of the [Cavendish Radio Cosmology Research Group](https://www.cavendishradiocosmology.com).
+
+In the first of my lectures I discussed how emulators allow
+us to physically model our data in computationally efficient ways that make
+Bayesian inference feasible. The likelihood function $L(\theta)$ in Bayesian inference is 
+a function of our data model $M(\theta)$ where $\theta$ are physically meaningful
+parameters. In an MCMC chain the likelihood has to be called millions of times
+for different parameter sets
+but if our model is a semi-numerical or hydrodynamical simulation each call
+can take hours or even weeks making the inference infeasible. However,
+we can train neural network emulators with a comparatively small number of model
+realisations to accurately approximate the semi-numerical or hydrodynamical simulations.
+Typically these emulators will take fractions of a second to evaluate for a single parameter
+set reducing the likelihood evaluation time and making inference possible.
+
+In the lecture I demonstrated how we build emulators for sky-averaged 21-cm
+Cosmology, discussed dimensionality reduction and discussed how one might emulate images
+with Convolutional Neural Networks. I wrote a set
+of example python notebooks demonstrating each of these concepts which are available
+[here](https://github.com/htjb/Talks/tree/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/mphil-lecture-examples).
+
+In the second lecture, I introduced Simulation Based Inference (SBI) and discussed why
+this is a useful tool in astrophysics and cosmology. In SBI the goal is to infer 
+our likelihood from simulations of our observable and use neural networks to
+approximate the posterior $P(\theta|D)$, the likleihood $P(D|\theta)$ or the
+ratio of likelihood to Bayesian Evidence $\frac{P(D|\theta)}{P(D)}$. In the
+lecture I introduced the students to the concepts of Approximate Bayesian
+Computation, Neural Posterior Estimation with Conditional Normalising Flows
+and Neural Ratio Estimation. For each concept I again provided Python notebooks
+demonstrations (see [here](https://github.com/htjb/Talks/tree/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/mphil-lecture-examples)).
+
+<center><img src="{{ site.url }}/assets/Lecture-image.png" width="70%" alt-text="Benchmark Examples"></center>
 
 ## Piecewise Normalizing Flows
 
