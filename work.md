@@ -9,12 +9,70 @@ machine learning algorithms to the calibration of radio antennas.
 
 Below is a summary of some of my most recent work.
 
+- [Tensionnet: Calibrating tension statistics with neural ratio estimation](#tensionnet-calibrating-tension-statistics-with-neural-ratio-estimation---15102024)
+- [Lectures on Simulation Based Inference and Signal Emulation](#simulation-based-inference-and-signal-emulation---15102024)
 - [Piecewise Normalizing Flows](#piecewise-normalizing-flows)
 - [Joint Constraints on the first galaxies](#joint-constraints-on-the-first-galaxies)
 - [margarine: Marginal Bayesian Statistics](#margarine-marginal-bayesian-statistics)
 - [Astrophysical constraints on the first galaxies from SARAS3](#astrophysical-constraints-on-the-first-galaxies-from-saras3)
 
 For a complete list of publications see [here](https://harrybevins.co.uk/pubs.html).
+
+## Tensionnet: Calibrating tension statistics with neural ratio estimation - 15102024
+
+- [Paper](https://arxiv.org/abs/2407.15478)
+- TLDR: Using Neural Ratio Estimation to calibrate out the prior dependence of Bayesian tension statistics.
+
+The paper proposes a new method to quantify the tension between different datasets that aim to measure 
+the same physical parameters. This method utilizes a machine learning technique called Neural Ratio Estimation (NRE) 
+to improve upon a traditional statistical measure of tension known as the evidence ratio, denoted as 'R'.
+
+In science, when two independent experiments measuring the same phenomenon yield results that disagree, 
+we call it 'tension'. This tension can point towards undiscovered physics, systematic errors in the experiments, 
+or simply statistical fluctuations.
+
+The evidence ratio 'R' is a Bayesian statistical tool that compares the likelihood of observing the combined data 
+from two experiments under the assumption they agree (joint evidence) versus the likelihood of observing them 
+if they are independent (product of individual evidences).
+
+While R is a powerful tool, its interpretation depends heavily on the prior on the parameters of the model.
+
+The paper proposes using NRE to calibrate R and create a new measure of tension called 'T', and
+a related measure of concordance called 'C'.
+
+The method begins by simulating a large number of mock datasets for both experiments,  
+assuming they agree on the underlying physical model. These simulated datasets, labeled as either 'matched' (from the same underlying parameters) 
+or 'mismatched' (from different parameters), are used to train a neural network, referred to as the tensionnet. 
+This trains the NRE to distinguish between concordant and discordant data.
+Once trained, the NRE is used to predict the expected distribution of 'R' values under the assumption 
+of concordance between the experiments, taking into account the prior. The observed R from the actual data is then compared 
+to this predicted distribution. This comparison allows researchers to calculate 'T' which expresses tension in terms of
+standard deviations (like a sigma level in particle physics), making it easier to interpret and compare with other tension metrics. 
+'C' similarly quantifies the level of agreement.
+
+The paper demonstrates this method on a toy 21cm example and on observations of the Baryon Acoustic Oscillations from
+DESI and SDSS (see the figure below).
+
+The tensionnet has several advantages. It helps to removes the subjective dependence on prior assumptions. 
+'T'  allows for a more intuitive interpretation of tension in terms of standard deviations.
+NREs are computationally faster than traditional methods for calibrating 'R'.
+
+However, their are a few limitiations. For example the accuracy of this method depends on how well the simulations 
+reflect the actual data and experimental uncertainties and the performance of the NRE. To use this method we also
+have to be able to simualte the observables we are interested in.
+
+This paper presents a promising new technique using machine learning to more accurately quantify tension 
+between datasets, with potential applications in cosmology and beyond.
+
+<center><img src="{{ site.url }}/assets/tensionnet-example.png" width="70%" alt-text="tensionnet Example"></center>
+
+## Simulation Based Inference and Signal Emulation - 15/10/2024
+
+I recently gave two lectures as part of the minor SKA model in the MPhil in Data Intensive Science course in Cambridge.
+
+The first lecture was on signal emualtors. I explained to the students why signal emulators are so crucial in the
+field of astrophysics and cosmology, the basic considerations that need to be made when building emulators and showed some
+examples.
 
 ## Piecewise Normalizing Flows
 
