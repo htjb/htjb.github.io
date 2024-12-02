@@ -1,3 +1,7 @@
+---
+title: Introduction
+---
+
 <center><img src="{{ site.url }}/assets/harry_bevins.jpeg" width="30%" alt-text="Portrait image"></center>
 
 <center>
@@ -8,9 +12,6 @@
 <a href='https://www.webofscience.com/wos/author/record/3920858'><img src="{{ site.url }}/assets/wos.png" width="10%" alt-text="Web of Science Link"></a>
 </center>
 
----
-title: Introduction
----
 
 I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at the University of Cambridge and a 
 Post-Doctoral Research Associate at St Edmunds College. My research focuses on developing 
