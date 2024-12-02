@@ -35,20 +35,19 @@ The evidence ratio 'R' is a Bayesian statistical tool that compares the likeliho
 from two experiments under the assumption they agree (joint evidence) versus the likelihood of observing them 
 if they are independent (product of individual evidences).
 
-While R is a powerful tool, its interpretation depends heavily on the prior on the parameters of the model.
-
-The paper proposes using NRE to calibrate R and create a new measure of tension called 'T', and
+While R is a powerful tool, its interpretation depends heavily on the prior on the parameters of the model. The paper 
+proposes using NREs to calibrate this prior dependence and create a new measure of tension called 'T', and
 a related measure of concordance called 'C'.
 
-The method begins by simulating a large number of mock datasets for both experiments,  
-assuming they agree on the underlying physical model. These simulated datasets, labeled as either 'matched' (from the same underlying parameters) 
-or 'mismatched' (from different parameters), are used to train a neural network, referred to as the tensionnet. 
-This trains the NRE to distinguish between concordant and discordant data.
-Once trained, the NRE is used to predict the expected distribution of 'R' values under the assumption 
-of concordance between the experiments, taking into account the prior. The observed R from the actual data is then compared 
-to this predicted distribution. This comparison allows researchers to calculate 'T' which expresses tension in terms of
-standard deviations (like a sigma level in particle physics), making it easier to interpret and compare with other tension metrics. 
-'C' similarly quantifies the level of agreement.
+This calibration method, termed TensionNet, uses NRE to predict the concordant distribution of 
+R values by simulating matched and mismatched datasets. Once trained, the NRE converts the observed 
+R value into a tension statistic T, expressed in standard deviations, and a concordance measure C.
+
+The method involves:
+
+1. **Simulation:** Generating synthetic datasets where both datasets share identical underlying parameters (matched) or differ (mismatched).
+2. **Training:** Labeling these sets and training the NRE to classify them, optimizing using binary cross-entropy.
+3. **Prediction:** The trained NRE predicts the distribution of R under concordance. By comparing the observed R to this distribution, T and C are derived.
 
 The paper demonstrates this method on a toy 21cm example and on observations of the Baryon Acoustic Oscillations from
 DESI and SDSS (see the figure below).
