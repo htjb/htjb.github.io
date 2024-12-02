@@ -2,19 +2,24 @@
 title: Introduction
 ---
 
-I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at
-Cambridge and a Post-Doctoral Research Associate at St Edmunds College. I am pursuing research in novel Bayesian analysis tools and their
-broad cosmological applications.
+I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at the University of Cambridge and a 
+Post-Doctoral Research Associate at St Edmunds College. My research focuses on developing 
+novel Bayesian analysis tools and applying them to various cosmological studies.
 
-During my PhD I worked on data analysis techniques for global or sky-averaged 21-cm cosmology
-as part of the
-[Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group and as part of the
-[REACH (Radio Experiment for the Analysis of Cosmic Hydrogen)](https://www.astro.phy.cam.ac.uk/research/research-projects/reach/reach)
-collaboration under the
-supervision of Dr Eloy de Lera Acedo, Dr Will Handley and Dr Anastasia Fialkov.
+During my PhD, I specialized in data analysis techniques for global or sky-averaged 21-cm cosmology as 
+part of the [Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group 
+and the [REACH (Radio Experiment for the Analysis of Cosmic Hydrogen)](https://www.astro.phy.cam.ac.uk/research/research-projects/reach/reach) collaboration 
+under the guidance of Dr. Eloy de Lera Acedo, Dr. Will Handley, and Dr. Anastasia Fialkov.
 
 You can find my thesis [here](https://github.com/htjb/Thesis/blob/main/Thesis.pdf).
 
+I have published several research papers on topics such as calibrating Bayesian tension statistics, 
+emulator development for the global 21-cm signal, and the application of Normalizing Flows in Bayesian workflows. 
+[My work](https://harrybevins.co.uk/work.html) has been featured in prestigious journals such 
+as Nature Astronomy and the Monthly Notices of the Royal Astronomical Society.
+
+Feel free to get in touch via email (htjb2@cam.ac.uk) if you have questions about
+my work or would like to collaborate
 
 <center><img src="{{ site.url }}/assets/harry_bevins.jpeg" width="30%" alt-text="Portrait image"></center>
 
@@ -26,29 +31,13 @@ You can find my thesis [here](https://github.com/htjb/Thesis/blob/main/Thesis.pd
 <a href='https://www.webofscience.com/wos/author/record/3920858'><img src="{{ site.url }}/assets/wos.png" width="10%" alt-text="Web of Science Link"></a>
 </center>
 
+During my academic career, I have had the privilege of supervising multiple PhD, Masters, and undergraduate students in 
+the field of astrophysics and cosmology. I have guided students in data analysis techniques for 21-cm cosmology, 
+calibration methods for cosmological experiments, and theoretical modeling of astrophysical signals. 
+I have also lectured on topics such as data-driven radio astronomy, Bayesian inference, and simulation-based inference for astrophysics and cosmology.
 
-21-cm cosmology is a field of study which aims to track the redshifted 21-cm
-emission from neutral hydrogen throughout cosmic history in an effort to
-determine when the first galaxies formed and what those galaxies were like. We know
-very little about the first luminous objects to form between the CMB and the current
-era of the galaxies dominated by large scale structure. While probes like JWST
-can in principle probe distant galaxies, as far back as z=20, 21-cm cosmology can
-provide statistical information about the population of galaxies over the redshift range
-z = 5 - 150.
+I have organized and participated in various conferences, workshops, 
+and panel discussions, contributing to the advancement of knowledge and collaboration within the scientific community.
 
-While a promising probe the view to the first
-galaxies is fogged by emission from our own and other galaxies, emission from our own atmosphere
-and made challenging by the non-uniform responses of our instruments. I have worked on a
-number of these challenges during my PhD including; galactic and extragalactic foreground modelling using maximally smooth
-functions (see [maxsmooth](https://github.com/htjb/maxsmooth)), signal emulation 
-(see [globalemu](https://github.com/htjb/globalemu)) improving on the runtime of the state of the
-art emulators by a factor of 102 and the application of Normalizing Flows in 
-a machine-learning enhanced Bayesian workflow (see [margarine](https://github.com/htjb/margarine)).
-
-
-You can read about the application of the tools I have developed to data from SARAS2 [here](https://academic.oup.com/mnras/article/513/3/4507/6575926),
-data from SARAS3 in [Nature Astronomy](https://www.nature.com/articles/s41550-022-01825-6) and data from 
-HERA and SARAS3 [here](https://arxiv.org/abs/2301.03298).
-
-I have recently worked on a novel approach for learning multi-modal probability distributions with
-Normalizing Flows which you can read about [here](https://arxiv.org/abs/2305.02930).
+You can read more on my [CV](https://github.com/htjb/CV/releases/download/Current/CV.pdf) and you can
+see the various talks and lectures I have given [here](https://github.com/htjb/Talks).
