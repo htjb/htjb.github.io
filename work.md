@@ -9,6 +9,7 @@ machine learning algorithms to the calibration of radio antennas.
 
 Below is a summary of some of my most recent work.
 
+- [Tensionnet: Calibrating tension statistics with neural ratio estimation](#tensionnet-calibrating-tension-statistics-with-neural-ratio-estimation---15102024)
 - [Emulation and SBI Lectures](#emulation-and-sbi-lectures)
 - [Piecewise Normalizing Flows](#piecewise-normalizing-flows)
 - [Joint Constraints on the first galaxies](#joint-constraints-on-the-first-galaxies)
@@ -16,6 +17,53 @@ Below is a summary of some of my most recent work.
 - [Astrophysical constraints on the first galaxies from SARAS3](#astrophysical-constraints-on-the-first-galaxies-from-saras3)
 
 For a complete list of publications see [here](https://harrybevins.co.uk/pubs.html).
+
+## Tensionnet: Calibrating tension statistics with neural ratio estimation - 15102024
+
+- [Paper](https://arxiv.org/abs/2407.15478)
+- TLDR: Using Neural Ratio Estimation to calibrate out the prior dependence of Bayesian tension statistics.
+
+The paper proposes a new method to quantify the tension between different datasets that aim to measure 
+the same physical parameters. This method utilizes a machine learning technique called Neural Ratio Estimation (NRE) 
+to improve upon a traditional statistical measure of tension known as the evidence ratio, denoted as 'R'.
+
+In science, when two independent experiments measuring the same phenomenon yield results that disagree, 
+we call it 'tension'. This tension can point towards undiscovered physics, systematic errors in the experiments, 
+or simply statistical fluctuations.
+
+The evidence ratio 'R' is a Bayesian statistical tool that compares the likelihood of observing the combined data 
+from two experiments under the assumption they agree (joint evidence) versus the likelihood of observing them 
+if they are independent (product of individual evidences).
+
+While R is a powerful tool, its interpretation depends heavily on the prior on the parameters of the model. The paper 
+proposes using NREs to calibrate this prior dependence and create a new measure of tension called 'T', and
+a related measure of concordance called 'C'.
+
+This calibration method, termed TensionNet, uses NRE to predict the concordant distribution of 
+R values by simulating matched and mismatched datasets. Once trained, the NRE converts the observed 
+R value into a tension statistic T, expressed in standard deviations, and a concordance measure C.
+
+The method involves:
+
+1. **Simulation:** Generating synthetic datasets where both datasets share identical underlying parameters (matched) or differ (mismatched).
+2. **Training:** Labeling these sets and training the NRE to classify them, optimizing using binary cross-entropy.
+3. **Prediction:** The trained NRE predicts the distribution of R under concordance. By comparing the observed R to this distribution, T and C are derived.
+
+The paper demonstrates this method on a toy 21cm example and on observations of the Baryon Acoustic Oscillations from
+DESI and SDSS (see the figure below).
+
+The tensionnet has several advantages. It helps to removes the subjective dependence on prior assumptions. 
+'T'  allows for a more intuitive interpretation of tension in terms of standard deviations.
+NREs are computationally faster than traditional methods for calibrating 'R'.
+
+However, their are a few limitiations. For example the accuracy of this method depends on how well the simulations 
+reflect the actual data and experimental uncertainties and the performance of the NRE. To use this method we also
+have to be able to simualte the observables we are interested in.
+
+This paper presents a promising new technique using machine learning to more accurately quantify tension 
+between datasets, with potential applications in cosmology and beyond.
+
+<center><img src="{{ site.url }}/assets/tensionnet-example.png" width="70%" alt-text="tensionnet Example"></center>
 
 ## Emulation and SBI Lectures
 
@@ -64,6 +112,7 @@ and Neural Ratio Estimation. For each concept I again provided Python notebooks
 demonstrations (see [here](https://github.com/htjb/Talks/tree/master/Lectures/MPhil_Data_Intensive_Science_Lectures_2024/mphil-lecture-examples)).
 
 <center><img src="{{ site.url }}/assets/Lecture-image.png" alt-text="SBI Lecture"></center>
+
 
 ## Piecewise Normalizing Flows
 
