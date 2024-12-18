@@ -4,10 +4,10 @@ title: Teaching and Awards
 
 ## Grants and Awards
 
-- **DiRAC Seedcorn (100k CPU hrs = £1000):** Constraining the Stochasticity of Star Formation with Simulation Based Inference \\
-- **DiRAC Seedcorn (100k CPU and 1000 GPU hrs =£1550):** Temperature dependent normalizing flows and their relationship to Nested Sampling \\
-- **Kavli Junior Fellowship 2023 (Accepted):** Three year independent research post with £10,000 per year research budget. \\
-- **Texas Center for Cosmology and Astroparticle Physics Fellowship 2023 (Declined):** Two year postdoctoral fellowship at University of Texas Austin with Prof. Julian Munoz. \\
+- **DiRAC Seedcorn (100k CPU hrs = £1000):** Constraining the Stochasticity of Star Formation with Simulation Based Inference.
+- **DiRAC Seedcorn (100k CPU and 1000 GPU hrs =£1550):** Temperature dependent normalizing flows and their relationship to Nested Sampling.
+- **Kavli Junior Fellowship 2023 (Accepted):** Three year independent research post with £10,000 per year research budget.
+- **Texas Center for Cosmology and Astroparticle Physics Fellowship 2023 (Declined):** Two year postdoctoral fellowship at University of Texas Austin with Prof. Julian Munoz.
 - **Trottier Space Institute Fellowship 2023 (Declined):** Two year postdoctoral fellowship at McGill University with Prof. Cynthia Chiang and Prof. John Sievers.
 - **Fitzwilliam Society Trust Research Fund 2022:** Financial support to help attend and present at the 5th Global 21-cm Workshop.
 - **Fitzwilliam College Student Opportunities Award 2022:** Financial support
