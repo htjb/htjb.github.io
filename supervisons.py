@@ -89,20 +89,20 @@ start_date = datetime(2023, 10, 1).timestamp()
 
 
 # Function to convert seconds to months
-def seconds_to_months(seconds):
-    return seconds / (30 * 24 * 3600)
+def seconds_to_days(seconds):
+    return seconds / (24 * 3600)
 
 
 # Adjust the start times and durations to be in months from October 2023
-summer_s = [seconds_to_months(s) for s in summer_s]
-partIII_s = [seconds_to_months(s) for s in partIII_s]
-Mphil_s = [seconds_to_months(s) for s in Mphil_s]
-PhD_s = [seconds_to_months(s) for s in PhD_s]
+summer_s = [seconds_to_days(s) for s in summer_s]
+partIII_s = [seconds_to_days(s) for s in partIII_s]
+Mphil_s = [seconds_to_days(s) for s in Mphil_s]
+PhD_s = [seconds_to_days(s) for s in PhD_s]
 
-summer_diffs = seconds_to_months(summer_diffs)
-partIII_diffs = seconds_to_months(partIII_diffs)
-Mphil_diffs = seconds_to_months(Mphil_diffs)
-PhD_diffs = seconds_to_months(PhD_diffs)
+summer_diffs = seconds_to_days(summer_diffs)
+partIII_diffs = seconds_to_days(partIII_diffs)
+Mphil_diffs = seconds_to_days(Mphil_diffs)
+PhD_diffs = seconds_to_days(PhD_diffs)
 
 fig, ax = plt.subplots()
 plt.grid(zorder=1)
@@ -134,15 +134,15 @@ plt.barh(
     zorder=2,
 )
 plt.barh(
-    y=y, width=PhD_diffs, left=PhD_s, color="y", 
+    y=y, width=PhD_diffs, left=PhD_s, color="y",
     label="PhD", hatch=hatch, zorder=2
 )
 
 minimum = []
 for i in range(len(students["Name"])):
-    minimum.append(np.nanmin([summer_s[i], 
+    minimum.append(np.nanmin([summer_s[i],
                     partIII_s[i], Mphil_s[i], PhD_s[i]]))
-    plt.text(minimum[i]-0.2, i, students["Name"].values[i], 
+    plt.text(minimum[i]-5, i, students["Name"].values[i], 
              ha='right', va='center', fontsize=10,
              bbox=dict(facecolor='white', edgecolor='white',
                         boxstyle='round,pad=0.2'))
@@ -150,13 +150,13 @@ for i in range(len(students["Name"])):
 plt.xticks(
     ax.get_xticks(),
     [
-        datetime.fromtimestamp(30 * 24 * 3600 * x).strftime("%b %Y")
+        datetime.fromtimestamp(24 * 3600 * x).strftime("%b %Y")
         for x in ax.get_xticks()
     ],
     rotation=45,
 )
 
-ax.set_xlim(left=seconds_to_months(start_date))
+ax.set_xlim(left=seconds_to_days(start_date))
 
 
 plt.gca().yaxis.set_visible(False)
