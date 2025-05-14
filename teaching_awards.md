@@ -32,6 +32,7 @@ studies during 2020.
 
 ### Student Supervision
 
+- **Jan 2025 - Present:** Co-supervision of Adele Chu with Eloy de Lera Acedo and Dominic Anstey for MPhil in Physics, University of Cambridge. Working on calibration techniques for global 21-cm experiments.
 - **Oct 2024 - Present:** Co-supervision of Lehan Li with Kaisey Mandel and Matt Grayling for Part III Masters Project, University of Cambridge. Working on hierarchical modelling of Supernova populations.
 - **Oct 2024 - Present:** Co-supervision of Patrick Whitman with Anastasia Fialkov for Part III Masters Project, University of Cambridge. Working on simulations of the 21cm signal.
 - **Oct 2024 - Present:** Co-supervision of Gabriella Rajpoot with Eloy de Lera Acedo and Dominic Anstey for MPhil in Physics, University of Cambridge. Working on data analysis for global 21-cm experiments.
