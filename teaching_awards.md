@@ -33,16 +33,16 @@ studies during 2020.
 ### Student Supervision
 
 - **Jan 2025 - Present:** Co-supervision of Adele Chu with Eloy de Lera Acedo and Dominic Anstey for MPhil in Physics, University of Cambridge. Working on calibration techniques for global 21-cm experiments.
-- **Oct 2024 - Present:** Co-supervision of Lehan Li with Kaisey Mandel and Matt Grayling for Part III Masters Project, University of Cambridge. Working on hierarchical modelling of Supernova populations.
-- **Oct 2024 - Present:** Co-supervision of Patrick Whitman with Anastasia Fialkov for Part III Masters Project, University of Cambridge. Working on simulations of the 21cm signal.
+- **Oct 2024 - June 2025:** Co-supervision of Lehan Li with Kaisey Mandel and Matt Grayling for Part III Masters Project, University of Cambridge. Working on hierarchical modelling of Supernova populations.
+- **Oct 2024 - June 2025:** Co-supervision of Patrick Whitman with Anastasia Fialkov for Part III Masters Project, University of Cambridge. Working on simulations of the 21cm signal.
 - **Oct 2024 - Present:** Co-supervision of Gabriella Rajpoot with Eloy de Lera Acedo and Dominic Anstey for MPhil in Physics, University of Cambridge. Working on data analysis for global 21-cm experiments.
 - **Oct 2024 - Present:** Co-supervision of Daniel Robins with Eloy de Lera Acedo and Dominic Anstey for PhD in Physics, University of Cambridge. Working on data analysis for global 21-cm experiments.
 - **Oct 2024 - Present:** Co-supervision of Adarsh Kumar Dash with Eloy de Lera Acedo and Dominic Anstey for PhD in Physics, University of Cambridge. Working on calibration for global 21-cm experiments.
-- **Jul 2024 - Present:** Co-supervision of Charlotte Priestley with Will Handley for a summer project and Part III Masters Project, University of Cambridge. Working on density estimation and Simulation Based Inference.
+- **Jul 2024 - Jun 2025:** Co-supervision of Charlotte Priestley with Will Handley for a summer project and Part III Masters Project, University of Cambridge. Working on density estimation and Simulation Based Inference.
 - **Jan 2024 - Present:** Co-supervision of Aleksandra Dragovic with Eloy de Lera Acedo and Dominic Anstey for PhD in Physics, University of Cambridge. Working on Data Analysis for global 21-cm experiments.
 - **Jan 2024 - Present:** Co-supervision of Saswata Dasgupta with Anastasia Fialkov, Dominic Anstey and Eloy de Lera Acedo for PhD in Astronomy, University of Cambrdige. Working on Calibration methods for global 21-cm experiments.
 - **Oct 2023 - Present:** Co-supervision of Sam Leeney with Eloy de Lera Acedo and Will Handley for PhD in Physics, University of Cambridge. Working on Machine Learning for calibration of global 21-cm experiments.
-- **Oct 2023 - March 2024:** Co-supervision of Nora Gavrea with Anastasia Fialkov for Part III Astrophysics Masters Project, University of Cambridge. Working on detailed modelling of the Dark Ages 21cm signal.
+- **Oct 2023 - June 2024:** Co-supervision of Nora Gavrea with Anastasia Fialkov for Part III Astrophysics Masters Project, University of Cambridge. Working on detailed modelling of the Dark Ages 21cm signal.
 
 <center><img src="{{ site.url }}/assets/supervisions.png" alt-text="Supervision Gantt Chart"></center>
 
