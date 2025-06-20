@@ -15,7 +15,7 @@ title: Introduction
 
 I am currently a Junior Kavli Fellow at the Kavli Institute for Cosmology at the University of Cambridge and a 
 Post-Doctoral Research Associate at St Edmunds College. My research focuses on developing 
-novel Bayesian analysis tools and applying them to various cosmological studies.
+novel Bayesian analysis tools and machine learning algorithms for various cosmological studies.
 
 During my PhD, I specialized in data analysis techniques for global or sky-averaged 21-cm cosmology as 
 part of the [Cm-Wave Experimental Radio Cosmology](https://cavendishcmwavecosmology.weebly.com/) group 
@@ -31,14 +31,6 @@ as Nature Astronomy and the Monthly Notices of the Royal Astronomical Society.
 
 Feel free to get in touch via email (htjb2@cam.ac.uk) if you have questions about
 my work or would like to collaborate
-
-During my academic career, I have had the privilege of supervising multiple PhD, Masters, and undergraduate students in 
-the field of astrophysics and cosmology. I have guided students in data analysis techniques for 21-cm cosmology, 
-calibration methods for cosmological experiments, and theoretical modeling of astrophysical signals. 
-I have also lectured on topics such as data-driven radio astronomy, Bayesian inference, and simulation-based inference for astrophysics and cosmology.
-
-I have organized and participated in various conferences, workshops, 
-and panel discussions, contributing to the advancement of knowledge and collaboration within the scientific community.
 
 You can read more on my [CV](https://github.com/htjb/CV/releases/download/Current/CV.pdf) and you can
 see the various talks and lectures I have given [here](https://github.com/htjb/Talks).
