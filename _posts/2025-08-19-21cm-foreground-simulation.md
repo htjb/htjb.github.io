@@ -15,7 +15,7 @@ Understanding and modeling radio foregrounds is crucial for 21-cm cosmology expe
 In radio astronomy, the observed sky brightness temperature is the result of convolving the true sky brightness with the instrument's beam pattern:
 
 
-$$T_\mathrm{observed} = \int T_\mathrm{sky}(\theta,\phi) \times BG\theta, \phi) d\Omega$$
+$T_\mathrm{observed} = \int T_\mathrm{sky}(\theta,\phi) \times BG\theta, \phi) d\Omega$
 
 
 where $$T_\mathrm{sky}(\theta,\phi)$$ is the sky brightness temperature at position $$(\theta, \phi)$$, $$G(\theta, \phi)$$ is the normalized beam pattern and the integral is over the solid angle.
@@ -24,7 +24,7 @@ where $$T_\mathrm{sky}(\theta,\phi)$$ is the sky brightness temperature at posit
 
 Our simulation uses the Global Sky Model (GSM) through the [pygdsm](https://github.com/telegraphic/pygdsm) interface to generate realistic sky brightness maps across different frequencies and convolves them with a simple Gaussian beam pattern. The beam pattern here has a full width at half max $$F$$ of 100 at 150 MHz and this is scaled according to
 
-$$ \sigma = \frac{1}{2 \sqrt{2 \log 2}} \mathrm{F}_\mathrm{150} \frac{150}{\nu}$$.
+$$\sigma = \frac{1}{2 \sqrt{2 \log 2}} \mathrm{F}_\mathrm{150} \frac{150}{\nu}$$.
 
 where $$\sigma$$ is the standard deviation of 
 
@@ -56,13 +56,13 @@ for i, freq in enumerate(frequencies):
 
 ### Sky Brightness and Beam Pattern at 130 MHz
 
-![Sky and Beam Pattern](assets/posts/beam_sky_pattern.png)
+<center><img src="{{ site.url }}/assets/posts/beam_sky_pattern.png" width="70%" alt-text="Sky and Beam Pattern"></center>
 
 The left panel shows the sky brightness temperature from the GSM at 130 MHz on a logarithmic scale. The galactic plane is clearly visible as a bright band in the sky, with synchrotron emission dominating at these frequencies. The right panel shows the Gaussian beam pattern (G) used in the convolution.
 
 ### Frequency Dependence
 
-![Sky Brightness vs Frequency](assets/posts/sky_brightness_vs_frequency.png)
+<center><img src="{{ site.url }}/assets/posts/sky_brightness_vs_frequency.png" width="70%" alt-text="Sky Brightness vs Frequency"></center>
 
 The convolved sky brightness shows the expected steep frequency dependence, dropping from ~6500 K at 50 MHz to ~400 K at 130 MHz. This $$\approx \nu^{-2.5}$$ scaling is characteristic of galactic synchrotron emission, the dominant foreground component at these frequencies.
 
