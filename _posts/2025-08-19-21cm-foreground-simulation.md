@@ -15,28 +15,23 @@ Understanding and modeling radio foregrounds is crucial for 21-cm cosmology expe
 In radio astronomy, the observed sky brightness temperature is the result of convolving the true sky brightness with the instrument's beam pattern:
 
 
-```math
-T_\mathrm{observed} = \int T_\mathrm{sky}(\theta,\phi) \times BG\theta, \phi) d\Omega
-```
+$$T_\mathrm{observed} = \int T_\mathrm{sky}(\theta,\phi) \times BG\theta, \phi) d\Omega$$
 
 
-where $`T_\mathrm{sky}(\theta,\phi)`$ is the sky brightness temperature at position $`(\theta, \phi)`$, $`G(\theta, \phi)`$ is the normalized beam pattern and the integral is over the solid angle.
+where $T_\mathrm{sky}(\theta,\phi)$ is the sky brightness temperature at position $(\theta, \phi)$, $G(\theta, \phi)$ is the normalized beam pattern and the integral is over the solid angle.
 
 ## Implementation
 
-Our simulation uses the Global Sky Model (GSM) through the [pygdsm](https://github.com/telegraphic/pygdsm) interface to generate realistic sky brightness maps across different frequencies and convolves them with a simple Gaussian beam pattern. The beam pattern here has a full width at half max $`F`$ of 100 at 150 MHz and this is scaled according to
+Our simulation uses the Global Sky Model (GSM) through the [pygdsm](https://github.com/telegraphic/pygdsm) interface to generate realistic sky brightness maps across different frequencies and convolves them with a simple Gaussian beam pattern. The beam pattern here has a full width at half max $F$ of 100 at 150 MHz and this is scaled according to
 
-```math
-\sigma = \frac{1}{2 \sqrt{2 \log 2}} \mathrm{F}_\mathrm{150} \frac{150}{\nu}
-```
 
-where $`\sigma`$ is the standard deviation of 
+$$\sigma = \frac{1}{2 \sqrt{2 \log 2}} \mathrm{F}_\mathrm{150} \frac{150}{\nu}$$
 
-```math
-G = \exp(-\frac{D_A^2}{2 \sigma})
-```
+where $\sigma$ is the standard deviation of 
 
-and $`D_A`$ is the angular distance of each pixel in the beam from the observer's zenith. Pixels below the horizon are masked out since the instrument won't see the sky below 90$`^\circ`$ (assuming the horizon is flat). The gain is normalised such that its maximum value is 1. 
+$$G = \exp(-\frac{D_A^2}{2 \sigma})$$
+
+and $D_A$ is the angular distance of each pixel in the beam from the observer's zenith. Pixels below the horizon are masked out since the instrument won't see the sky below 90$^\circ$ (assuming the horizon is flat). The gain is normalised such that its maximum value is 1. 
 
 Both the gain and the sky temperature are returned as healpy maps meaning that the convolution can be taken by taking an average of the product of the beam and sky at each frequency.
 
@@ -70,7 +65,7 @@ The left panel shows the sky brightness temperature from the GSM at 130 MHz on a
 
 <center><img src="{{ site.url }}/assets/posts/sky_brightness_vs_frequency.png" width="70%" alt-text="Sky Brightness vs Frequency"></center>
 
-The convolved sky brightness shows the expected steep frequency dependence, dropping from ~6500 K at 50 MHz to ~400 K at 130 MHz. This $`\approx \nu^{-2.5}`$ scaling is characteristic of galactic synchrotron emission, the dominant foreground component at these frequencies.
+The convolved sky brightness shows the expected steep frequency dependence, dropping from ~6500 K at 50 MHz to ~400 K at 130 MHz. This $\approx \nu^{-2.5}$ scaling is characteristic of galactic synchrotron emission, the dominant foreground component at these frequencies.
 
 ## Physical Interpretation
 
